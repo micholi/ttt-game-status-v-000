@@ -43,11 +43,11 @@ end
 
 def winner(board)
   if won?(board)
-  new_win_combo = won?(board)
-  if board[new_win_combo[0]] == "X" && board[new_win_combo[1]] == "X" && board[new_win_combo[2]] == "X"
-    return "X"
-  elsif board[new_win_combo[0]] == "O" && board[new_win_combo[1]] == "O" && board[new_win_combo[2]] == "O"
-    return "O"
-  end
-end
+    new_win_combo = won?(board)
+      if board[new_win_combo[0]] == "X" && board[new_win_combo[1]] == "X" && board[new_win_combo[2]] == "X"
+        return "X"
+      elsif board[new_win_combo[0]] == "O" && board[new_win_combo[1]] == "O" && board[new_win_combo[2]] == "O"
+        return "O"
+      end
+    end
 end
