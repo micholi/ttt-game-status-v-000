@@ -34,7 +34,7 @@ def full?(board)
 end
 
 def draw?(board)
-  !won?(board) && full?(board)  
+  !won?(board) && full?(board)
 end
 
 def over?(board)
@@ -42,6 +42,7 @@ def over?(board)
 end
 
 def winner(board)
-  #code below
+  if won?(board) = ["X", "X", "X"]
+    return "X"
 
 end
