@@ -45,5 +45,7 @@ def winner(board)
   won?(board)
   if win_combo[0,1,2] = ["X","X","X"]
     return "X"
+  elsif 
+    return "Y"
   end
 end
