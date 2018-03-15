@@ -40,6 +40,7 @@ end
 
 def over?(board)
   if !won? && full?(board)
+    returns true
   end
 end
 
