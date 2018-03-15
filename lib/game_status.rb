@@ -43,6 +43,6 @@ end
 
 def winner(board)
   if won?(board)
-    winner_array = win_combo
+    
   end
 end
