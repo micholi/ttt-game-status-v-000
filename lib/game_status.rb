@@ -43,10 +43,7 @@ def over?(board)
 end
 
 def winner(board)
-  won?(board)
-  if board[win_combo[0,1,2]] = ["X","X","X"]
-    return "X"
-  elsif
-    return "Y"
+  if won?(board)
+    return winner
   end
 end
