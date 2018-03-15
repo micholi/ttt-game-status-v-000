@@ -48,4 +48,5 @@ def winner(board)
   elsif board[new_var[0]] = "O" && board[new_var[1]] = "O" && board[new_var[2]] = "O"
     return "O"
   end
+  false
 end
