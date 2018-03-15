@@ -42,12 +42,11 @@ def over?(board)
 end
 
 def winner(board)
-  new_var = won?(board)
-  if board[new_var[0]] == "X" && board[new_var[1]] == "X" && board[new_var[2]] == "X"
+  new_win_combo = won?(board)
+  if board[new_win_combo[0]] == "X" && board[new_win_combo[1]] == "X" && board[new_win_combo[2]] == "X"
     return "X"
-  elsif board[new_var[0]] == "O" && board[new_var[1]] == "O" && board[new_var[2]] == "O"
+  elsif board[new_win_combo[0]] == "O" && board[new_win_combo[1]] == "O" && board[new_win_combo[2]] == "O"
     return "O"
   else
-    false
   end
 end
