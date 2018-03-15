@@ -12,5 +12,5 @@ WIN_COMBINATIONS = [
   [1,4,7], # Middle column
   [2,5,8], # Right colum
   [0,4,8], # Back slash diagonal
-  [3,5,6] # Forward slash diagnoal
+  [2,4,6] # Forward slash diagnoal
 ]
