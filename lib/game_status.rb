@@ -47,7 +47,6 @@ def winner(board)
     return "X"
   elsif board[new_win_combo[0]] == "O" && board[new_win_combo[1]] == "O" && board[new_win_combo[2]] == "O"
     return "O"
-  else
   end
-  false
+    false
 end
