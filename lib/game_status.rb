@@ -28,8 +28,10 @@ end
 
 
 def full?(board)
-#code below
+  board.all? do
+    
 
+  end 
 end
 
 def draw?(board)
