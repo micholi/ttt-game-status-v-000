@@ -39,8 +39,8 @@ def draw?(board)
 end
 
 def over?(board)
-  #code below
-
+  if !won? && full?(board)
+  
 end
 
 def winner(board)
