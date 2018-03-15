@@ -43,7 +43,7 @@ end
 
 def winner(board)
   new_var = won?(board)
-  if board[new_var] = ["X","X","X"]
+  if board[new_var[0]] = ["X"] && board[new_var[1]] = ["X"] && board[new_var[2]] = ["X"]
     return "X"
   end
 end
