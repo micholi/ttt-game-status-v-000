@@ -17,10 +17,6 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_combo|
-    position_1 = board[win_combo[0]]
-    position_2 = board[win_combo[1]]
-    position_3 = board[win_combo[2]]
-    #if position_1 == "X" && position_2 == "X" && position_3 == "X"
     if board[win_combo[0]] == "X" && board[win_combo[1]] == "X" && board[win_combo[2]] == "X"
     return win_combo
 
