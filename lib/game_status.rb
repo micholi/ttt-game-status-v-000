@@ -42,7 +42,7 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == [["X"]["X"]["X"]]
+  if won?(board) == ["X"]["X"]["X"]
     "X"
   end
 end
