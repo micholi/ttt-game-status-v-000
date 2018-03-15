@@ -42,7 +42,8 @@ def over?(board)
 end
 
 def winner(board)
-  if won?(board) == ["X,X,X"]
+  won?(board)
+  if win_combo[0,1,2] = ["X","X","X"]
     return "X"
   end
 end
