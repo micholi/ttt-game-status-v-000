@@ -11,8 +11,8 @@ WIN_COMBINATIONS = [
   [0,3,6], # Left column
   [1,4,7], # Middle column
   [2,5,8], # Right colum
-  [0,4,8], # Back slash diagonal
-  [2,4,6] # Forward slash diagnoal
+  [0,4,8], # Left diagonal
+  [2,4,6] # Right diagnoal
 ]
 
 def won?(board)
@@ -39,5 +39,5 @@ end
 
 def winner(board)
   #code below
-  
+
 end
