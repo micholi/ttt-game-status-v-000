@@ -17,16 +17,27 @@ WIN_COMBINATIONS = [
 
 def won?(board)
   WIN_COMBINATIONS.each do |win_index|
-    
+
 
   end
 end
 
+def full?(board)
+#code below
+
+end
+
 def draw?(board)
+  #code below
+
 end
 
 def over?(board)
+  #code below
+
 end
 
 def winner(board)
+  #code below
+  
 end
