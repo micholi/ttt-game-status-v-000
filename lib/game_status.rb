@@ -44,8 +44,6 @@ end
 
 def winner(board)
   if won?(board)
-    board[win_combo]
-if board[win_combo[0]] == "X" && board[win_combo[1]] == "X" && board[win_combo[2]] == "X"
-  return "X"
+    return winner
   end
 end
