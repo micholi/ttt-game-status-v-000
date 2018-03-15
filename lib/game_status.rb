@@ -28,8 +28,8 @@ end
 
 
 def full?(board)
-  all_taken = [" ", "", nil] = board.all? do |taken|
-    
+  board.all? do |taken|
+    taken != " "
 
   end 
 end
